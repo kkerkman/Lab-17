@@ -1,18 +1,18 @@
 <!doctype html>
-</html>
+<html>
 <head>
 	<title>Lab 17</title>
-	<link href="css/style.css" rel="stylesheet" type="text/css" media="screen" />
+	<link href ="style.css" rel="stylesheet" type="text/css" media="screen" />
 
 </head>
-<body ng-app= "portApp">
+<body ng-app = "portApp">
 	<h1>Portfolio</h1>
 <section ng controller= "infoSectionCtrl">
+	
 	<div class= "Project">
-	<spd-section-info ng-repeat= "port in portInfo">
-	<h2>{{section.headline}}</h2>
-		<img ng-src= "{{section.img}}">
-		<p class= "desc" >{{section.description}}</p>
+	
+	<spd-section-info ng-repeat= "section in sectionInfo">
+
 
 
 	</spd-section-info>
@@ -22,8 +22,7 @@
 
 
 
-<script src= "js/angular-route.min.js"></script>
-<script src= "angular.min.js"></script>
-<script src= "/js/script.js"></script>
+<script src= "js/angular.min.js"></script>
+<script src= "js/script.js"></script>
 </body>
-</html
+</html>
